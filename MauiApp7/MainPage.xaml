@@ -5,10 +5,11 @@
              x:Class="MauiApp7.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
+    <WebView Source="https://learn.microsoft.com/dotnet/maui" />
+
+    <!--<BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
         <BlazorWebView.RootComponents>
             <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
         </BlazorWebView.RootComponents>
-    </BlazorWebView>
-
+    </BlazorWebView>-->
 </ContentPage>
